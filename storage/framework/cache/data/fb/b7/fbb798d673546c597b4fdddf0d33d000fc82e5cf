@@ -1,0 +1,23 @@
+1589543507a:1:{s:21:"localMenu/default.php";a:5:{s:8:"fileName";s:21:"localMenu/default.php";s:5:"mTime";i:1589540796;s:7:"content";s:352:"<div class="menu-list">
+    <?php if ($menuIsGrouped) { ?>
+        <?= partial('@grouped', ['groupedMenuItems' => $menuList]); ?>
+    <?php } else { ?>
+        <?= partial('@items', ['menuItems' => $menuList]); ?>
+    <?php } ?>
+
+    <div class="pagination-bar text-right">
+        <div class="links"><?= $menuList->links(); ?></div>
+    </div>
+</div>
+";s:6:"markup";s:352:"<div class="menu-list">
+    <?php if ($menuIsGrouped) { ?>
+        <?= partial('@grouped', ['groupedMenuItems' => $menuList]); ?>
+    <?php } else { ?>
+        <?= partial('@items', ['menuItems' => $menuList]); ?>
+    <?php } ?>
+
+    <div class="pagination-bar text-right">
+        <div class="links"><?= $menuList->links(); ?></div>
+    </div>
+</div>
+";s:4:"code";N;}}

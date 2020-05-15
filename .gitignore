@@ -1,0 +1,5 @@
+/vendor
+/.phpintel
+/.idea
+*.sublime-project
+*.sublime-workspace
