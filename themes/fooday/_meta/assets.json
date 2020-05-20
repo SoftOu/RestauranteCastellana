@@ -1,0 +1,206 @@
+{
+	"doctype": "html5",
+	"favicon": "",
+	"meta": [
+		{
+			"name": "Content-type",
+			"content": "text/html; charset=utf-8",
+			"type": "equiv"
+		},
+		{
+			"name": "X-UA-Compatible",
+			"content": "IE=edge",
+			"type": "equiv"
+		},
+		{
+			"name": "viewport",
+			"content": "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no",
+			"type": "name"
+		}
+	],
+	"css": [
+		{
+			"path": "fooday/assets/vendors/bootstrap/css/bootstrap.min.css",
+			"name": "bootstrap"
+		},
+		{
+			"path": "fooday/assets/vendors/font-awesome/css/font-awesome.min.css",
+			"name": "font-awesome"
+		},
+		{
+			"path": "fooday/assets/vendors/flexslider/flexslider.min.css",
+			"name": "flexslider"
+		},
+		{
+			"path": "fooday/assets/vendors/swipebox/css/swipebox.min.css",
+			"name": "swipebox"
+		},
+		{
+			"path": "fooday/assets/vendors/slick/slick.min.css",
+			"name": "slick"
+		},
+		{
+			"path": "fooday/assets/vendors/slick/slick-theme.min.css",
+			"name": "slick-theme"
+		},
+		{
+			"path": "fooday/assets/vendors/animate.min.css",
+			"name": "animate"
+		},
+		{
+			"path": "fooday/assets/vendors/bootstrap-datepicker/css/bootstrap-datepicker.min.css",
+			"name": "bootstrap-datepicker"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/css/component.min.css",
+			"name": "component"
+		},
+		{
+			"path": "fooday/assets/fonts/font-icon/style.css",
+			"name": "style"
+		},
+		{
+			"path": "fooday/assets/css/layout.css",
+			"name": "layout"
+		},
+		{
+			"path": "fooday/assets/css/elements.css",
+			"name": "elements"
+		},
+		{
+			"path": "fooday/assets/css/extra.css",
+			"name": "extra"
+		},
+		{
+			"path": "fooday/assets/css/widget.css",
+			"name": "widget"
+		},
+		{
+			"path": "fooday/assets/css/responsive.css",
+			"name": "responsive"
+		}
+	],
+	"js": [
+		
+		{
+			"path": "fooday/assets/vendors/html5shiv.js",
+			"name": "html5shiv"
+		},
+		{
+			"path": "fooday/assets/vendors/respond.min.js",
+			"name": "respond"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/js/snap.svg-min.js",
+			"name": "snap.svg"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js",
+			"name": "modernizr"
+		},
+		{
+			"path": "fooday/assets/vendors/html5shiv.js",
+			"name": "html5shiv"
+		},
+		{
+			"path": "fooday/assets/vendors/respond.min.js",
+			"name": "respond"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/js/snap.svg-min.js",
+			"name": "snap"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js",
+			"name": "modernizr"
+		},
+		{
+			"path": "fooday/assets/vendors/jquery-1.10.2.min.js",
+			"name": "jquery"
+		},
+		{
+			"path": "fooday/assets/vendors/bootstrap/js/bootstrap.min.js",
+			"name": "bootstrap"
+		},
+		{
+			"path": "fooday/assets/vendors/flexslider/jquery.flexslider-min.js",
+			"name": "jquery_flexslider"
+		},
+		{
+			"path": "fooday/assets/vendors/swipebox/js/jquery.swipebox.min.js",
+			"name": "jquery_swipebox"
+		},
+		{
+			"path": "fooday/assets/vendors/slick/slick.min.js",
+			"name": "slick"
+		},
+		{
+			"path": "fooday/assets/vendors/isotope/isotope.pkgd.min.js",
+			"name": "isotope_pkgd"
+		},
+		{
+			"path": "fooday/assets/vendors/jquery-countTo/jquery.countTo.min.js",
+			"name": "jquery_count_to"
+		},
+		{
+			"path": "fooday/assets/vendors/jquery-appear/jquery.appear.min.js",
+			"name": "jquery_appear"
+		},
+		{
+			"path": "fooday/assets/vendors/parallax/parallax.min.js",
+			"name": "parallax"
+		},
+		{
+			"path": "fooday/assets/vendors/gmaps/gmaps.min.js",
+			"name": "gmaps"
+		},
+		{
+			"path": "fooday/assets/vendors/audiojs/audio.min.js",
+			"name": "audio"
+		},
+		{
+			"path": "fooday/assets/vendors/vide/jquery.vide.min.js",
+			"name": "jquery_vide"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/js/svgLoader.min.js",
+			"name": "svg_loader"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/js/classie.min.js",
+			"name": "classie"
+		},
+		{
+			"path": "fooday/assets/vendors/pageloading/sidebartransition/js/sidebarEffects.min.js",
+			"name": "sidebar_effects"
+		},
+		{
+			"path": "fooday/assets/vendors/nicescroll/jquery.nicescroll.min.js",
+			"name": "jquery_nicescroll"
+		},
+		{
+			"path": "fooday/assets/vendors/wowjs/wow.min.js",
+			"name": "wow"
+		},
+		{
+			"path": "fooday/assets/vendors/skrollr.min.js",
+			"name": "skrollr"
+		},
+		{
+			"path": "fooday/assets/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js",
+			"name": "bootstrap_datepicker"
+		},
+		{
+			"path": "fooday/assets/js/layout.js",
+			"name": "layout"
+		},
+		{
+			"path": "fooday/assets/js/elements.js",
+			"name": "elements"
+		},
+		{
+			"path": "fooday/assets/js/widget.js",
+			"name": "widget"
+		}
+	]
+}

@@ -1,10 +1,19 @@
 {
 	"code": "fooday",
-	"parent": null,
-	"name": "Test Theme",
-	"description": "Testing theme for TastyIgniter front-end",
-	"author": "Dario.Rodriguez@softwareoutsourcing.es",
+	"name": "Fooday Theme",
+	"description": "Demonstration theme",
+	"author": "dodriguez@softwareoutsourcing.es",
 	"version": "1.0.0",
+	"locked": true,
+	"require": {
+		"igniter.cart": "*",
+		"igniter.frontend": "*",
+		"igniter.local": "*",
+		"igniter.pages": "*",
+		"igniter.payregister": "*",
+		"igniter.reservation": "*",
+		"igniter.user": "*"
+	},
 	"tags": {
 		"1.0.0": "Theme initialization"
 	}

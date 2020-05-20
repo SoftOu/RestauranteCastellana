@@ -3,3 +3,7 @@
 /.idea
 *.sublime-project
 *.sublime-workspace
+/storage
+/storage/framework/cache
+/storage/framework/sessions
+/storage/system/cache
