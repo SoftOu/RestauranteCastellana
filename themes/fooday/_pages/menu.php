@@ -58,11 +58,39 @@ permalink: /menu
 						<div class="close-offcanvas-wrapper"><span class="close-offcanvas">x</span></div>
 						<div class="main-nav">
 							<ul id="main-nav" class="nav nav-pills">
-								<li><a href="/">Home</a></li>
-								<li><a href="#">About</a></li>
-								<li><a href="#">Reservation</a></li>
-								<li class="current-menu-item"><a href="menu">Menu</a></li>
-								<li><a href="#">Contact</a></li>
+								<li class="dropdown"><a href="index.html" class="dropdown-toggle">Home</a><i class="fa fa-angle-down btn-open-dropdown"></i>
+									<ul class="dropdown-menu">
+										<li><a href="index.html">Home 1</a></li>
+										<li><a href="homepage2.html">Home 2</a></li>
+										<li><a href="homepage3.html">Home 3</a></li>
+										<li><a href="home-fullpage.html" target="_blank">Home Full Page</a></li>
+										<li><a href="home-shop.html">Home Shop</a></li>
+										<li><a href="homesidebarmenu.html">Home Sidebar Menu</a></li>
+										<li><a href="home-one-page.html" target="_blank">Home One Page</a></li>
+										<li><a href="home-boxed.html">Home Boxed</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="reservation.html">Reservation</a></li>
+								<li class="dropdown current-menu-item"><a href="menu-grid-1.html" class="dropdown-toggle">
+										 
+										Menu</a><i class="fa fa-angle-down btn-open-dropdown"></i>
+									<ul class="dropdown-menu">
+										<li><a href="menu-classic.html">Menu Classic</a></li>
+										<li><a href="menu-grid-1.html">Menu Grid 01</a></li>
+										<li><a href="menu-grid-2.html">Menu Grid 02</a></li>
+										<li class="current-menu-item"><a href="menu-grid-3.html">Menu Grid 03</a></li>
+										<li><a href="product-single.html">Product Detail</a></li>
+									</ul>
+								</li>
+								<li class="dropdown"><a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">Blog</a><i class="fa fa-angle-down btn-open-dropdown"></i>
+									<ul class="dropdown-menu">
+										<li><a href="blogs.html">Blog List</a></li>
+										<li><a href="blog-single.html">Blog Single</a></li>
+										<li><a href="page-404.html">404 Page</a></li>
+									</ul>
+								</li>
+								<li><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 					</nav>
@@ -73,456 +101,311 @@ permalink: /menu
 			<div data-bottom-top="background-position: 50% 50px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -50px;" class="page-title page-menu">
 				<div class="container">
 					<div class="title-wrapper">
-						<div data-top="transform: translateY(0px);opacity:1;" data--20-top="transform: translateY(-5px);" data--50-top="transform: translateY(-15px);opacity:0.8;" data--120-top="transform: translateY(-30px);opacity:0;" data-anchor-target=".page-title" class="title">Menu Classic</div>
+						<div data-top="transform: translateY(0px);opacity:1;" data--20-top="transform: translateY(-5px);" data--50-top="transform: translateY(-15px);opacity:0.8;" data--120-top="transform: translateY(-30px);opacity:0;" data-anchor-target=".page-title" class="title">Menu Grid 03</div>
 						<div data-top="opacity:1;" data--120-top="opacity:0;" data-anchor-target=".page-title" class="divider"><span class="line-before"></span><span class="dot"></span><span class="line-after"></span></div>
 						<div data-top="transform: translateY(0px);opacity:1;" data--20-top="transform: translateY(5px);" data--50-top="transform: translateY(15px);opacity:0.8;" data--120-top="transform: translateY(30px);opacity:0;" data-anchor-target=".page-title" class="subtitle">The various dishes are waiting for your coming to enjoy its</div>
 					</div>
 				</div>
 			</div>
 			<div class="page-content-wrapper">
-				<section class="product-sesction-menu padding-bottom-100 padding-top-100">
+				<section class="product-sesction-03 padding-top-100 padding-bottom-100">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="swin-sc swin-sc-title style-3">
-									<p class="title"><span>Breakfast Time</span></p>
+								<div class="swin-sc swin-sc-product products-01 style-01 woocommerce">
+									<div class="row">
+										<div class="col-md-4">
+											<div class="cat-wrapper main-slider">
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dessert.png') ?>" alt="" class="img img-responsive"></div>
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-lunch.png') ?>" alt="" class="img img-responsive"></div>
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dinner.png') ?>" alt="" class="img img-responsive"></div>
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dessert.png') ?>" alt="" class="img img-responsive"></div>
+											</div>
+										</div>
+										<div class="col-md-8">
+											<div class="products nav-slider">
+												<div class="item-slick">
+													<div class="row">
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Frish Cheese Chip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01b.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Grandpa's Country Fried For Breakfast</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01c.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01d.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01e.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy Meal 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>22.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01f.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy special 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>23.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01l.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>21.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="item-slick">
+													<div class="row">
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01e.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy Meal 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>22.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01f.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy special 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>23.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01l.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>21.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Frish Cheese Chip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01b.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Grandpa's Country Fried For Breakfast</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01c.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01d.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 								</div>
-								<div class="swin-sc swin-sc-product products-01 style-02 woocommerce">
-									<div class="row">
-										<div class="col-md-2"></div>
-										<div data-slide-toshow="5" class="cat-wrapper-02 main-slider col-md-8">
-											<div class="item">
-												<div class="cat-icons"><i class="icons swin-icon-pasta"></i>
-													<h5 class="cat-title">Rice</h5>
-												</div>
-											</div>
-											<div class="item">
-												<div class="cat-icons"><i class="icons swin-icon-fish"></i>
-													<h5 class="cat-title">Soup</h5>
-												</div>
-											</div>
-											<div class="item">
-												<div class="cat-icons"><i class="icons swin-icon-meat"></i></div>
-												<h5 class="cat-title">coffee</h5>
-											</div>
-											<div class="item">
-												<div class="cat-icons"><i class="icons swin-icon-ice-cream"></i></div>
-												<h5 class="cat-title">Desset</h5>
-											</div>
-											<div class="item">
-												<div class="cat-icons"><i class="icons swin-icon-dinner"></i></div>
-												<h5 class="cat-title">Drink</h5>
-											</div>
-										</div>
-										<div class="col-md-2"></div>
-									</div>
-									<div class="row">
-										<div class="nav-slider">
-											<div class="tab-content">
-												<div class="col-md-5 col-sm-12">
-													<div class="cat-wrapper">
-														<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dessert.png') ?>" alt="" class="img img-responsive img-full"></div>
-													</div>
-												</div>
-												<div class="col-md-7 col-sm-12">
-													<div class="products">
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Uncle Herschel's Favorite </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Old Timer's Meat Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="tab-content">
-												<div class="col-md-5 col-sm-12">
-													<div class="cat-wrapper">
-														<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-lunch.png') ?>" alt="" class="img img-responsive img-full"></div>
-													</div>
-												</div>
-												<div class="col-md-7 col-sm-12">
-													<div class="products">
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Uncle Herschel's Favorite </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Old Timer's Meat Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="tab-content">
-												<div class="col-md-5 col-sm-12">
-													<div class="cat-wrapper">
-														<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dinner.png') ?>" alt="" class="img img-responsive img-full"></div>
-													</div>
-												</div>
-												<div class="col-md-7 col-sm-12">
-													<div class="products">
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Uncle Herschel's Favorite </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Old Timer's Meat Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="tab-content">
-												<div class="col-md-5 col-sm-12">
-													<div class="cat-wrapper">
-														<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dessert.png') ?>" alt="" class="img img-responsive img-full"></div>
-													</div>
-												</div>
-												<div class="col-md-7 col-sm-12">
-													<div class="products">
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Old Timer's Meat Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Uncle Herschel's Favorite </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="tab-content">
-												<div class="col-md-5 col-sm-12">
-													<div class="cat-wrapper">
-														<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-lunch.png') ?>" alt="" class="img img-responsive img-full"></div>
-													</div>
-												</div>
-												<div class="col-md-7 col-sm-12">
-													<div class="products">
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Old Timer's Meat Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Uncle Herschel's Favorite </h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-														</div>
-														<div class="item product-01">
-															<div class="item-left">
-																<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-																<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-															</div>
-															<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+								<div class="swin-btn-wrap center mtxxl"><a href="#" class="swin-btn center btn-transparent"> <span>All Dishes</span></a></div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="menu-banner-section banner-section padding-top-100 padding-bottom-100"><img src="<?= theme_url('fooday/assets/images/background/lemon.png') ?>" alt="" class="img-left img-bg img-deco img-responsive"><img src="<?= theme_url('fooday/assets/images/background/vegetable_03.png') ?>" alt="" class="img-right img-bg img-deco img-responsive">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8 col-md-offset-2">
+								<div class="content-wrapper">
+									<h2 class="heading-title">Let's Make Your Meal be Fantastic With<span class="text-large"> FOODAY</span>Awesome Menu!</h2>
+									<div class="swin-btn-wrap"><a href="#" class="swin-btn"><span>Book Table</span></a></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</section>
-				<section class="product-sesction-03-1 padding-top-100 padding-bottom-100"><img src="<?= theme_url('fooday/assets/images/product/product-decorate.jpg') ?>" alt="" class="img-responsive img-decorate">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 col-md-4"></div>
-							<div class="col-lg-6 col-md-8">
-								<div class="swin-sc swin-sc-title text-left light">
-									<p class="top-title"><span>chef choise</span></p>
-									<h3 class="title">Daily Special</h3>
-								</div>
-								<div class="swin-sc swin-sc-product products-01 style-04 light swin-vetical-slider">
-									<div class="row">
-										<div class="col-md-12">
-											<div data-height="200" class="products nav-slider">
-												<div class="item product-01">
-													<div class="item-left"><img src="<?= theme_url('fooday/assets/images/product/product-2a.jpg') ?>" alt="" class="img img-responsive">
-														<div class="content-wrapper"><a class="title">The Cracker Barrel's Country Boy Breakfast</a>
-															<div class="dot">.....................................................................</div>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-													</div>
-													<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-												</div>
-												<div class="item product-01">
-													<div class="item-left"><img src="<?= theme_url('fooday/assets/images/product/product-2b.jpg') ?>" alt="" class="img img-responsive">
-														<div class="content-wrapper"><a class="title">Uncle Herschel's Favorite </a>
-															<div class="dot">.....................................................................</div>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-													</div>
-													<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-												</div>
-												<div class="item product-01">
-													<div class="item-left"><img src="<?= theme_url('fooday/assets/images/product/product-2c.jpg') ?>" alt="" class="img img-responsive">
-														<div class="content-wrapper"><a class="title">Grandpa's Country Fried Breakfast </a>
-															<div class="dot">.....................................................................</div>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-													</div>
-													<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-												</div>
-												<div class="item product-01">
-													<div class="item-left"><img src="<?= theme_url('fooday/assets/images/product/product-2d.jpg') ?>" alt="" class="img img-responsive">
-														<div class="content-wrapper"><a class="title">Chinese Chicken Bread Spicy Soup</a>
-															<div class="dot">.....................................................................</div>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-													</div>
-													<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-												</div>
-												<div class="item product-01">
-													<div class="item-left"><img src="<?= theme_url('fooday/assets/images/product/product-2b.jpg') ?>" alt="" class="img img-responsive">
-														<div class="content-wrapper"><a class="title">Uncle Herschel's Favorite </a>
-															<div class="dot">.....................................................................</div>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-													</div>
-													<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-												</div>
-												<div class="item product-01">
-													<div class="item-left"><img src="<?= theme_url('fooday/assets/images/product/product-2a.jpg') ?>" alt="" class="img img-responsive">
-														<div class="content-wrapper"><a class="title">The Cracker Barrel's Country Boy Breakfast</a>
-															<div class="dot">.....................................................................</div>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-													</div>
-													<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0													</span></div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="product-sesction-menu padding-bottom-100 padding-top-100">
+				<section class="product-sesction-03 padding-top-100 padding-bottom-100">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-12">
-								<div class="swin-sc swin-sc-title style-3">
-									<p class="title"><span>Lunch Time</span></p>
-								</div>
-								<div class="swin-sc swin-sc-product products-01 style-02 woocommerce">
+								<div class="swin-sc swin-sc-product products-01 style-01 woocommerce">
 									<div class="row">
-										<div class="tab-content">
-											<div class="col-md-6 col-sm-12">
-												<div class="products">
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Uncle Herschel's Favorite </h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Old Timer's Meat Breakfast</h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
-														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-													</div>
-												</div>
+										<div class="col-md-4">
+											<div class="cat-wrapper main-slider">
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dessert.png') ?>" alt="" class="img img-responsive"></div>
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-lunch.png') ?>" alt="" class="img img-responsive"></div>
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dinner.png') ?>" alt="" class="img img-responsive"></div>
+												<div class="item"><img src="<?= theme_url('fooday/assets/images/product/pd-cat-dessert.png') ?>" alt="" class="img img-responsive"></div>
 											</div>
 										</div>
-										<div class="tab-content">
-											<div class="col-md-6 col-sm-12">
-												<div class="products">
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">The Cracker Barrel's Country Boy Breakfast</h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+										<div class="col-md-8">
+											<div class="products nav-slider">
+												<div class="item-slick">
+													<div class="row">
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Frish Cheese Chip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
 														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01b.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Grandpa's Country Fried For Breakfast</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01c.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01d.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01e.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy Meal 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>22.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01f.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy special 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>23.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01l.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>21.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
+														</div>
 													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Uncle Herschel's Favorite </h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+												</div>
+												<div class="item-slick">
+													<div class="row">
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01e.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy Meal 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>22.0</span>
+															</div>
 														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>45.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Grandpa's Country Fried Breakfast </h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01f.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Spicy special 01</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>23.0</span>
+															</div>
 														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Old Timer's Meat Breakfast</h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01l.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>21.0</span>
+															</div>
 														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
-													</div>
-													<div class="item product-01">
-														<div class="item-left">
-															<h5 class="title">Chinese Chicken Bread Spicy Soup</h5>
-															<div class="des">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum </div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Old Timer's Meat Breakfasthip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
 														</div>
-														<div class="item-right"><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>12.0</span></div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Frish Cheese Chip</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01b.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Grandpa's Country Fried For Breakfast</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01c.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+															</div>
+														</div>
+														<div class="col-md-3 col-sm-6 col-xs-12">
+															<div class="item product-01">
+																<div class="block-img"><img src="<?= theme_url('fooday/assets/images/product/product-01d.jpg') ?>" alt="">
+																	<div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+																</div><a class="title">Uncle Herschel's Favorite</a><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+															</div>
+														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
+								<div class="swin-btn-wrap center mtxxl"><a href="#" class="swin-btn center btn-transparent"> <span>All Dishes</span></a></div>
 							</div>
 						</div>
 					</div>
