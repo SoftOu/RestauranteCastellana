@@ -29,7 +29,7 @@
     "ext-openssl": "*",
     "composer/installers": "~1.0",
     "tastyigniter/flame": "~1.0",
-    "laravel/framework": "5.8.*",
+    "laravel/framework": "6.20.*",
     "wikimedia/composer-merge-plugin": "^1.4"
   },
   "require-dev": {
